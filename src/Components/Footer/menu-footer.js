@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ScrollToTop from '../Utils/ScrollTop';
 
 class MenuFooter extends React.Component {
     constructor(props) {
@@ -11,6 +12,7 @@ class MenuFooter extends React.Component {
         <div className="menu-footer">
             <div className="content">
                 <div className="text-align-center">
+                    <ScrollToTop />
                     <Link className="footer-menu-link" to='/'>HOME</Link>
                     <Link className="footer-menu-link" to='/blog'>Blog</Link>
                     <Link className="footer-menu-link" to='/about'>About</Link>

@@ -15,7 +15,7 @@ class Header extends React.Component {
                         <tr>
                             <td><img src="/assets/images/MonetizerIcon.png"/></td>
                             <td><div className="header-title">MONETIZER</div></td>
-                            <td><NavLink  className="header-button" activeclassname='active' to='/'>HOME</NavLink ></td>
+                            <td><NavLink  className="header-button" activeclassname='active' exact to='/'>HOME</NavLink ></td>
                             <td><NavLink  className="header-button" activeclassname='active' to='/blog'>Blog</NavLink ></td>
                             <td><NavLink  className="header-button" activeclassname='active' to='/about'>About</NavLink ></td>
                             <td><NavLink  className="header-button" activeclassname='active' to='/updates'>Updates</NavLink ></td>
