@@ -13,16 +13,18 @@ class Header extends React.Component {
                 <table className="header-table">
                     <tbody>
                         <tr>
-                            <td><img src="/assets/images/MonetizerIcon.png"/></td>
-                            <td><div className="header-title">MONETIZER</div></td>
+                            <td rowSpan="2" className="header-icon-td vertical-top"><img src="/assets/images/MonetizerIcon.png"/></td>
+                            <td className="header-title-td"><div className="header-title">MONET</div></td>
                             <td><NavLink  className="header-button" activeclassname='active' exact to='/'>HOME</NavLink ></td>
-                            <td><NavLink  className="header-button" activeclassname='active' to='/blog'>Blog</NavLink ></td>
+                            <td><NavLink  className="header-button" activeclassname='active' to='/announcements'>Announcements</NavLink ></td>
                             <td><NavLink  className="header-button" activeclassname='active' to='/about'>About</NavLink ></td>
-                            <td><NavLink  className="header-button" activeclassname='active' to='/updates'>Updates</NavLink ></td>
-                            <td><NavLink  className="header-button" activeclassname='active' to='/for-content-creators'>For Content Creators</NavLink ></td>
-                            <td><NavLink  className="header-button" activeclassname='active' to='/for-businesses'>For Businesses</NavLink ></td>
                             <td><NavLink  className="header-button" activeclassname='active' to='/community'>Community</NavLink ></td>
                             <td><NavLink  className="header-button" activeclassname='active' to='/contact'>Contact</NavLink ></td>
+                        </tr>
+                        <tr>
+                            <td colSpan="4" className="text-left"><h3 className="color-green3">BSC: _________________________</h3></td>
+                            <td><NavLink  className="header-button margin-top--30" activeclassname='active' to='/whitepaper'>Whitepaper</NavLink ></td>
+                            <td><NavLink  className="header-button margin-top--30" activeclassname='active' to='/faq'>FAQ</NavLink ></td>
                         </tr>
                     </tbody>
                 </table>

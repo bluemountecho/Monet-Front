@@ -39,13 +39,14 @@ img {
 body {
     background: var(--color-green1);
     margin: 0px;
-    padding-top: 78px;
+    padding-top: 115px;
 }
 
 div.header {
+    border-bottom: 2px solid var(--color-green3);
     background: var(--color-green2);
     width: 100%;
-    height: 78px;
+    height: 115px;
     font-weight: bold;
     position: fixed;
     top: 0px;
@@ -62,10 +63,11 @@ div.header-title {
     color: var(--color-green3);
     font-weight: bold;
     font-family: 'oswald', sans-serif;
+    padding-right: 50px;
 }
 
 table.header-table {
-    height: 78px;
+    height: 115px;
 }
 
 table {
@@ -84,6 +86,8 @@ a.header-button {
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
+    width: 95%;
+    display: block;
 }
 
 a.header-button:hover {
@@ -155,15 +159,15 @@ div.subscribe-footer {
 }
 
 .mb-30 {
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
 }
 
 .mb-100 {
-    margin-bottom: 100px;
+    margin-bottom: 100px !important;
 }
 
 .mt-50 {
-    margin-top: 50px;
+    margin-top: 50px !important;
 }
 
 .auto-div {
@@ -220,15 +224,10 @@ img.feature-icon {
     color: var(--color-green1);
 }
 
-div.faq-title {
-    height: 70px;
-    width: 80%;
-}
-
 div.faq-content, div.faq-title {
     text-align: left;
     width: 80%;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 
 div.menu-footer {
@@ -250,6 +249,11 @@ td.vertical-top {
 
 div.content-home-body {
     background: var(--color-green3);
+    padding: 40px 0px;
+}
+
+div.content-home-body .content {
+    background: var(--color-green2);
 }
 
 span.home-title {
@@ -266,8 +270,8 @@ span.home-title {
 }
 
 a.read-whitepaper {
-    background: var(--color-green5);
-    color: white;
+    background: var(--color-green1);
+    color: var(--color-green5);
     text-decoration: none;
     padding: 15px 0px;
     margin-top: 50px;
@@ -283,7 +287,8 @@ a.read-whitepaper {
 }
 
 a.read-whitepaper:hover {
-    background: var(--color-green6);
+    background: var(--color-green5);
+    color: white;
 }
 
 a.social-icon {
@@ -334,4 +339,40 @@ div.flex-div {
 .fade-exit-active {
   opacity: 0;
   transform: translateY(10px);
+}
+
+.header-title-td {
+    width: 180px;
+    min-width: 180px;
+}
+
+.header-icon-td {
+    width: 70px;
+    min-width: 70px;
+}
+
+.margin-top--30 {
+    margin-top: -30px !important;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.color-green3 {
+    color: var(--color-green3) !important;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color-green2);
+}
+
+.width-33 {
+    width: 33%;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
 }

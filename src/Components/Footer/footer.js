@@ -1,7 +1,7 @@
 import React from 'react';
 
 import SubscribeFooter from './subscribe-footer';
-import FaqFooter from './faq-footer';
+import MeetTheTeam from './meet-the-team';
 import MenuFooter from './menu-footer';
 
 class Footer extends React.Component {
@@ -13,7 +13,7 @@ class Footer extends React.Component {
         return (
             <>
             <SubscribeFooter />
-            <FaqFooter />
+            <MeetTheTeam />
             <MenuFooter />
             </>
         )

@@ -24,7 +24,9 @@ class Home extends React.Component {
                                         <a className="social-icon" href="https://instagram.com" target="_blank"><img src="/assets/images/instagram.svg" /></a>
                                     </div>
                                 </td>
-                                <td></td>
+                                <td>
+                                    <img src="/assets/images/monetizecoin.webp" />
+                                </td>
                             </tr>
                         </tbody>
                     </table>
