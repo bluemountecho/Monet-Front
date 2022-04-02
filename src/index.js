@@ -10,6 +10,8 @@ import Footer from './Components/Footer/footer.js';
 const Home = lazy(() => import('./Components/Home/home.js'));
 const Blog = lazy(() => import('./Components/Blog/blog.js'));
 const About = lazy(() => import('./Components/About/about.js'));
+const Faq = lazy(() => import('./Components/Faq/faq.js'));
+const Contact = lazy(() => import('./Components/Contact/contact.js'));
 
 const App = ({ location }) => {
   const currentKey = location.pathname.split("/")[1] || "/";
@@ -29,11 +31,17 @@ const App = ({ location }) => {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="/blog">
+            <Route path="/announcements">
               <Blog />
             </Route>
             <Route path="/about">
               <About />
+            </Route>
+            <Route path="/faq">
+              <Faq />
+            </Route>
+            <Route path="/contact">
+              <Contact />
             </Route>
           </Switch>
         </CSSTransition>

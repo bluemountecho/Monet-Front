@@ -24,7 +24,7 @@ class Header extends React.Component {
                             </tr>
                             <tr>
                                 <td colSpan="4" className="text-left"><h3 className="color-green3">BSC: _________________________</h3></td>
-                                <td><NavLink  className="header-button margin-top--30" activeclassname='active' to='/whitepaper'>Whitepaper</NavLink ></td>
+                                <td><a  className="header-button margin-top--30" href="/assets/pdf/Monet_Whitepaper.pdf" target="_blank">Whitepaper</a></td>
                                 <td><NavLink  className="header-button margin-top--30" activeclassname='active' to='/faq'>FAQ</NavLink ></td>
                             </tr>
                         </tbody>
