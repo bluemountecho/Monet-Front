@@ -18,7 +18,6 @@ class Home extends React.Component {
                                         <a href="/assets/pdf/Monet_Whitepaper.pdf" className="read-whitepaper auto-div" target="_blank">Read The Whitepaper</a>
                                         <h3 className="color-green7">Join the Community</h3>
                                         <div>
-                                            <a className="social-icon" href="https://facebook.com" target="_blank"><img src="/assets/images/facebook.svg" /></a>
                                             <a className="social-icon" href="https://twitter.com" target="_blank"><img src="/assets/images/twitter.svg" /></a>
                                             <a className="social-icon" href="https://discord.com" target="_blank"><img src="/assets/images/discord.svg" /></a>
                                             <a className="social-icon" href="https://telegram.com" target="_blank"><img src="/assets/images/telegram.svg" /></a>
@@ -38,7 +37,6 @@ class Home extends React.Component {
                         <a href="/assets/pdf/Monet_Whitepaper.pdf" className="read-whitepaper auto-div" target="_blank">Read The Whitepaper</a>
                         <h3 className="color-green7">Join the Community</h3>
                         <div>
-                            <a className="social-icon" href="https://facebook.com" target="_blank"><img src="/assets/images/facebook.svg" /></a>
                             <a className="social-icon" href="https://twitter.com" target="_blank"><img src="/assets/images/twitter.svg" /></a>
                             <a className="social-icon" href="https://discord.com" target="_blank"><img src="/assets/images/discord.svg" /></a>
                             <a className="social-icon" href="https://telegram.com" target="_blank"><img src="/assets/images/telegram.svg" /></a>

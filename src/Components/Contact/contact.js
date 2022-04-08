@@ -113,15 +113,18 @@ class Contact extends Component {
 
     render() {
         return (
-            <div className="content-body">
+            <div className="content-body" style={{background: 'var(--color-green8)'}}>
                 <div className="content">
                     <div className="width-60 text-align-center auto-div pb-20">
                     <form>
                         <div>
-                            <input className="form-control" placeholder="Your Name" type="text" name="name" id="name" required />
+                            <input className="form-control" placeholder="Enter Your Name" type="text" name="name" id="name" required />
                         </div>
                         <div>
-                            <input className="form-control" placeholder="Your Email" type="email" id="email" required />
+                            <input className="form-control" placeholder="Enter Your Email" type="email" id="email" required />
+                        </div>
+                        <div>
+                            <input className="form-control" placeholder="Type The Subject" type="text" id="subject" required />
                         </div>
                         <div>
                             <textarea className="form-control" rows="7" placeholder="Enter Your Message Here..." name="message" id="message" required />

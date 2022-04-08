@@ -86,7 +86,7 @@ class Blog extends React.Component {
 
     render() {
         return (
-            <div className="content-body">
+            <div className="content-body" style={{background: 'var(--color-green8)'}}>
                 <div className="content">
                     <div className="pb-20">
                         <article className="best-post">

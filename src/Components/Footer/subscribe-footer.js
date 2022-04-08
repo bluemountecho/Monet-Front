@@ -8,9 +8,12 @@ class SubscribeFooter extends React.Component {
     render() {
         return (
         <div className="subscribe-footer">
+            <div style={{background: 'var(--color-green3)'}}>
+                <img src="/assets/images/about.webp" style={{opacity: '0.3'}} />
+            </div>
             <div className="content">
                 <div className="desktop-div">
-                    <table className="mb-30">
+                    <table className="mb-30 seperator-table">
                         <tbody>
                             <tr>
                                 <td colSpan="3">
@@ -51,13 +54,13 @@ class SubscribeFooter extends React.Component {
                                 </td>
                             </tr>
                             <tr>
-                                <td className="pd-20 vertical-top">
+                                <td className="pd-20 vertical-top width-33">
                                     <h4>For Creators</h4>
                                 </td>
-                                <td className="pd-20 vertical-top">
+                                <td className="pd-20 vertical-top width-33">
                                     <h4>For Stakeholders</h4>
                                 </td>
-                                <td className="pd-20 vertical-top">
+                                <td className="pd-20 vertical-top width-33">
                                     <h4>For Businesses</h4>
                                 </td>
                             </tr>
@@ -83,7 +86,7 @@ class SubscribeFooter extends React.Component {
                                     <p>Businesses now will be competing in a space where your voice properly dictates what companies and products will flourish. Instead of being a victim of unsolicited ads you will now directly influence what your favorite content creators promote across all platforms.</p>
                                 </td>
                                 <td className="pd-20 vertical-top width-33">
-                                    <p>When the app is ready to launch, businesses may submit a form to apply on our website. Once accepted, your company will be able to post advertisements with no cost to you! Monet will allocate its on propreitary tokens evenly across all advertisements on its platform, and reward those tokens entirely on your behalf!</p>
+                                    <p>When the app is ready to launch, businesses may submit a form to apply on our website. Once accepted, your company will be able to post advertisements with no cost to you! Monet will allocate its own proprietary tokens evenly across all advertisements on its platform, and reward those tokens entirely on your behalf!</p>
                                 </td>
                             </tr>
                             <tr>
@@ -127,10 +130,10 @@ class SubscribeFooter extends React.Component {
                             </tr>
                             <tr>
                                 <td className="pd-20 vertical-top width-33">
-                                    <p>Because you no longer have to worry about being demonetized from platforms such as YouTube, you will be able to produce whatever content you like! No longer will you have to be afraid of saying a swear word, covering sensitive topics, or sudden policy changes. Monet acts as a shield against demonetization thanks to its decentralized nature.</p>
+                                    <p>Because you no longer have to worry about being demonetized from platforms such as YouTube, you will be able to produce whatever content you like! No longer will you have to be afraid of saying a swear word, covering sensitive topics, or abrupt policy changes. Monet acts as a shield against demonetization thanks to its decentralized nature.</p>
                                 </td>
                                 <td className="pd-20 vertical-top width-33">
-                                    <p>You can pick and choose which products and services you want to promote and still get rewarded for it! No longer will you need to worry about messy contracts or business relations that could go up in smoke when you anger the Twitter mob. Even without a formal contract, Monet will earn you tokens based on the number of clicks for any link you advertise on your platforms.</p>
+                                    <p>Holders will be able to vote on changes to the Monet ecosystem. Also, with our balanced boosting feature, you can vote on which products and services will reward more for content creators.</p>
                                 </td>
                                 <td className="pd-20 vertical-top width-33">
                                     <p>Stakeholders may choose to promote your products alongside the creators. By boosting your ads, the stakeholders may put up their MTZ to increase the per-click rewards of your ads, which will help increase exposure to your goods and services!</p>
@@ -181,7 +184,7 @@ class SubscribeFooter extends React.Component {
                     <p className="text-justify">You can pick and choose which products and services you want to promote and still get rewarded for it! No longer will you need to worry about messy contracts or business relations that could go up in smoke when you anger the Twitter mob. Even without a formal contract, Monet will earn you tokens based on the number of clicks for any link you advertise on your platforms. Best part of all, you can select products and services you genuinely believe in instead of being forced to accept the highest bidders!</p>
                     <img className="feature-icon" src="/assets/images/7.svg" />
                     <h3 className="text-align-center">PRODUCE YOUR OWN CONTENT<br/>WITHOUT WORRY</h3>
-                    <p className="text-justify">Because you no longer have to worry about being demonetized from platforms such as YouTube, you will be able to produce whatever content you like! No longer will you have to be afraid of saying a swear word, covering sensitive topics, or sudden policy changes. Monet acts as a shield against demonetization thanks to its decentralized nature.</p>
+                    <p className="text-justify">Because you no longer have to worry about being demonetized from platforms such as YouTube, you will be able to produce whatever content you like! No longer will you have to be afraid of saying a swear word, covering sensitive topics, or abrupt policy changes. Monet acts as a shield against demonetization thanks to its decentralized nature.</p>
 
                     <h4 className="text-align-center">For Stakeholders</h4>
                     <img className="feature-icon" src="/assets/images/2.svg" />
@@ -192,12 +195,12 @@ class SubscribeFooter extends React.Component {
                     <p className="text-justify">Your participation in the Monet ecosystem will yield rewards. Every transaction will reward MTZ to all holders. You will also earn APY interest for boosting products that you believe in, which will increase based on how much MTZ is boosted in that ad.</p>
                     <img className="feature-icon" src="/assets/images/8.svg" />
                     <h3 className="text-align-center">VOTE WITH YOUR WALLET</h3>
-                    <p className="text-justify">You can pick and choose which products and services you want to promote and still get rewarded for it! No longer will you need to worry about messy contracts or business relations that could go up in smoke when you anger the Twitter mob. Even without a formal contract, Monet will earn you tokens based on the number of clicks for any link you advertise on your platforms.</p>
+                    <p className="text-justify">Holders will be able to vote on changes to the Monet ecosystem. Also, with our balanced boosting feature, you can vote on which products and services will reward more for content creators.</p>
 
                     <h4 className="text-align-center">For Businesses</h4>
                     <img className="feature-icon" src="/assets/images/3.svg" />
                     <h3 className="text-align-center">FREE ADVERTISING</h3>
-                    <p className="text-justify">When the app is ready to launch, businesses may submit a form to apply on our website. Once accepted, your company will be able to post advertisements with no cost to you! Monet will allocate its on propreitary tokens evenly across all advertisements on its platform, and reward those tokens entirely on your behalf!</p>
+                    <p className="text-justify">When the app is ready to launch, businesses may submit a form to apply on our website. Once accepted, your company will be able to post advertisements with no cost to you! Monet will allocate its own proprietary tokens evenly across all advertisements on its platform, and reward those tokens entirely on your behalf!</p>
                     <img className="feature-icon" src="/assets/images/6.svg" />
                     <h3 className="text-align-center">FREEDOM FROM ASSOCIATION</h3>
                     <p className="text-justify">We understand it can be stressful to maintain relationships with affiliates. Especially during a sensitive time, it can be risky to sponsor certain creators. Monet alleviates these concerns by acting as an intermediary. You can place your ads on our platform without worrying about the free speech of a creator.</p>
