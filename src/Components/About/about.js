@@ -19,6 +19,9 @@ class About extends React.Component {
                         <p style={{margin: '30px 0px 0px 0px'}}>We look forward to serving the crypto and the creator communities!</p>
                     </div>
                 </div>
+                <div style={{background: 'var(--color-green3)'}}>
+                    <img src="/assets/images/about.webp" style={{opacity: '0.3'}} />
+                </div>
             </div>
         )
     }

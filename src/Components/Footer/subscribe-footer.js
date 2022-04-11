@@ -8,12 +8,9 @@ class SubscribeFooter extends React.Component {
     render() {
         return (
         <div className="subscribe-footer">
-            <div style={{background: 'var(--color-green3)'}}>
-                <img src="/assets/images/about.webp" style={{opacity: '0.3'}} />
-            </div>
             <div className="content">
                 <div className="desktop-div">
-                    <table className="mb-30 seperator-table">
+                    <table className="mb-30 mt-50 seperator-table">
                         <tbody>
                             <tr>
                                 <td colSpan="3">
