@@ -4,8 +4,8 @@ import axios from 'axios'
 import {Parser} from 'html-to-react'
 
 const htmlToReactParser = new Parser()
-const serverURL = "http://localhost:3001"
-const baseURL = "http://localhost:8888"
+const serverURL = "http://167.86.120.197"
+const baseURL = ""
 
 class Blog extends React.Component {
     constructor(props) {

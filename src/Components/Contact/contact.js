@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 import React, { Component } from "react";
 
-const baseURL = "http://localhost:8888"
+const baseURL = ""
 
 class Contact extends Component {
     constructor(props) {
