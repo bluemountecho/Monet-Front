@@ -3,7 +3,7 @@ import axios from 'axios'
 import {Parser} from 'html-to-react'
 
 const htmlToReactParser = new Parser()
-const baseURL = ""
+const baseURL = "http://localhost:8080"
 
 class Faq extends React.Component {
     constructor(props) {
@@ -27,7 +27,7 @@ class Faq extends React.Component {
         return (
             <div className="content-body" style={{padding: '0px'}}>
                 <div className="content">
-                    <div className="width-80 text-align-center auto-div" style={{background: 'var(--color-green8)', padding: '30px 10% 60px'}}>
+                    <div className="width-80 mobile-width-100 text-align-center auto-div" style={{background: 'var(--color-green8)', padding: '30px 10% 60px'}}>
                         <h1 style={{margin: '0px 0px 50px'}}>FAQ</h1>
                         {this.state.faqs.map((faq, index) => {
                             return <>

@@ -4,6 +4,10 @@ import { NavLink } from 'react-router-dom';
 class Header extends React.Component {
     constructor(props) {
         super(props)
+
+        this.state = {
+            showMenu: false
+        }
     }
 
     render() {
@@ -23,9 +27,10 @@ class Header extends React.Component {
                                 <td><NavLink  className="header-button" activeclassname='active' to='/contact'>Contact</NavLink ></td>
                             </tr>
                             <tr>
-                                <td colSpan="4" className="text-left"><h3 className="color-green3">BSC: _________________________</h3></td>
-                                <td><a  className="header-button margin-top--30" href="/assets/pdf/Monet_Whitepaper.pdf" target="_blank">Whitepaper</a></td>
+                                <td colSpan="3" className="text-left"><h3 className="color-green3">BSC: _________________________</h3></td>
+                                <td><a className="header-button margin-top--30" href="/assets/pdf/Monet_Whitepaper.pdf" target="_blank">Whitepaper</a></td>
                                 <td><NavLink  className="header-button margin-top--30" activeclassname='active' to='/faq'>FAQ</NavLink ></td>
+                                <td><a className="header-button margin-top--30" activeclassname='active' href='https://www.demo.mtztoken.com' target="_blank">Demo</a ></td>
                             </tr>
                         </tbody>
                     </table>
@@ -35,7 +40,12 @@ class Header extends React.Component {
                         <img src="/assets/images/MonetizerIcon.png"/>
                         <div className="header-title">MONET</div>
                     </div>
-                    <img className="menu-icon" src="/assets/images/menu.svg" />
+                    <img className="menu-icon" src="/assets/images/menu.svg" onClick={e => {
+                        this.setState({
+                            showMenu: !this.state.showMenu
+                        })
+                    }} />
+                    {this.state.showMenu == true &&
                     <div className="header-menu">
                         <h3 className="color-green3">BSC: _________________________</h3>
                         <NavLink  className="header-button" activeclassname='active' exact to='/'>HOME</NavLink >
@@ -43,9 +53,10 @@ class Header extends React.Component {
                         <NavLink  className="header-button" activeclassname='active' to='/about'>About</NavLink >
                         <NavLink  className="header-button" activeclassname='active' to='/community'>Community</NavLink >
                         <NavLink  className="header-button" activeclassname='active' to='/contact'>Contact</NavLink >
-                        <NavLink  className="header-button margin-top--30" activeclassname='active' to='/whitepaper'>Whitepaper</NavLink >
-                        <NavLink  className="header-button margin-top--30" activeclassname='active' to='/faq'>FAQ</NavLink >
-                    </div>
+                        <a className="header-button" href="/assets/pdf/Monet_Whitepaper.pdf" target="_blank">Whitepaper</a>
+                        <NavLink  className="header-button" activeclassname='active' to='/faq'>FAQ</NavLink >
+                        <a className="header-button" activeclassname='active' href='https://www.demo.mtztoken.com' target="_blank">Demo</a >
+                    </div>}
                 </div>
             </div>
         </div>

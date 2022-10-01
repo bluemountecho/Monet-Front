@@ -9,7 +9,7 @@ class About extends React.Component {
         return (
             <div className="content-body" style={{padding: '0px'}}>
                 <div className="content">
-                    <div className="width-80 text-align-center auto-div" style={{background: 'var(--color-green8)', padding: '30px 10% 60px'}}>
+                    <div className="width-80 mobile-width-100 text-align-center auto-div" style={{background: 'var(--color-green8)', padding: '30px 10% 60px'}}>
                         <h1 style={{margin: '0px 0px 50px'}}>About</h1>
                         <h5 style={{fontWeight: 'bold', margin: '0px'}}>Securing the Financial Future of Content Creators</h5>
                         <p style={{margin: '30px 0px 0px 0px'}}>Monet is an attempt to free content creators and businesses from shackling limitations of the advertising industry. Creators worry about what they are allowed to say and fear losing their advertising revenue. Businesses fear their affiliates may negatively impact their customer base and sales, and fear legal complications over copyright concerns.</p>

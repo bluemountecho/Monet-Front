@@ -35,7 +35,9 @@ const transporter = nodemailer.createTransport({
     }
 })
 
-app.use(cors())
+app.use(cors([
+    'http://localhost:3000'
+]))
 app.use(session({
 	secret: 'secret',
 	resave: true,
@@ -100,4 +102,4 @@ app.post('/sendemail', async function(req, res) {
     res.redirect('http://localhost:3000/contact')
 });
 
-app.listen(8888);
+app.listen(8080);
