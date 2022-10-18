@@ -3,7 +3,7 @@ import axios from 'axios'
 import {Parser} from 'html-to-react'
 
 const htmlToReactParser = new Parser()
-const baseURL = "http://localhost:8080"
+const baseURL = "https://www.mtztoken.com/api"
 
 class Faq extends React.Component {
     constructor(props) {
