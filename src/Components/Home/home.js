@@ -16,7 +16,7 @@ class Home extends React.Component {
                                     <td className="width-40 ptb-40">
                                         <span className="home-title">SECURING THE FINANCIAL FUTURE FOR CONTENT CREATORS</span>
                                         <a href="/assets/pdf/Monet_Whitepaper.pdf" className="read-whitepaper auto-div" target="_blank">Read The Whitepaper</a>
-                                        <a href="https://www.mtztoken.com/demo" className="read-whitepaper auto-div margin-top-10" target="_blank">Try the Demo</a>
+                                        <a href="https://demo.mtztoken.com" className="read-whitepaper auto-div margin-top-10" target="_blank">Try the Demo</a>
                                         <h3 className="color-green7">Join the Community</h3>
                                         <div>
                                             <a className="social-icon" href="https://twitter.com/MtzMonet" target="_blank"><img src="/assets/images/twitter.svg" /></a>
@@ -38,7 +38,7 @@ class Home extends React.Component {
                         <img src="/assets/images/monetizecoin.webp" />
                         <span className="home-title">SECURING THE FINANCIAL FUTURE FOR CONTENT CREATORS</span>
                         <a href="/assets/pdf/Monet_Whitepaper.pdf" className="read-whitepaper auto-div" target="_blank">Read The Whitepaper</a>
-                        <a href="https://www.mtztoken.com/demo" className="read-whitepaper auto-div margin-top-10" target="_blank">Try the Demo</a>
+                        <a href="https://demo.mtztoken.com" className="read-whitepaper auto-div margin-top-10" target="_blank">Try the Demo</a>
                         <h3 className="color-green7">Join the Community</h3>
                         <div>
                             <a className="social-icon" href="https://twitter.com/MtzMonet" target="_blank"><img src="/assets/images/twitter.svg" /></a>

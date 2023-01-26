@@ -4,8 +4,8 @@ import axios from 'axios'
 import {Parser} from 'html-to-react'
 
 const htmlToReactParser = new Parser()
-const serverURL = "http://www.mtztoken.com/admin"
-const baseURL = "https://www.mtztoken.com/api"
+const serverURL = "https://admin.mtztoken.com"
+const baseURL = "https://admin.mtztoken.com/api"
 
 class Blog extends React.Component {
     constructor(props) {
